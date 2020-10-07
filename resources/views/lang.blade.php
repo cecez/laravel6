@@ -9,6 +9,6 @@
 @endsection
 
 @section('content')
-    <p>This is my body content.</p>
+    <p>Meu conteúdo.</p>
     <p>@lang('Amo programar.')</p>
 @endsection

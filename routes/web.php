@@ -16,5 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('/app', function () {
+
+    \Illuminate\Support\Facades\App::setLocale('en');
+
     return view('child');
+});
+
+Route::get('/lang', function () {
+
+    return view('lang');
 });
