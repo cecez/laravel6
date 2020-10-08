@@ -26,3 +26,7 @@ Route::get('/lang', function () {
 
     return view('lang');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
